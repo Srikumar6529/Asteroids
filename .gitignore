@@ -1,0 +1,19 @@
+game_state.jsonl
+# uv environment and tracking files
+.venv/
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.build/
+dist/
+
+# Optional: If you use the Ruff linter/formatter via uv
+.ruff_cache/
+
+# Optional: Local environment variables (strongly recommended to ignore)
+.env
+.env.*
+__pychache__/
